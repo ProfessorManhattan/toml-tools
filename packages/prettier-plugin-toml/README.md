@@ -2,6 +2,8 @@
 
 # Prettier Toml Plugin
 
+**NOTE: This is a fork that mutes the error that says "non exhaustive match"**
+
 ## WORK IN PROGRESS
 
 This plugin is in **alpha state**.

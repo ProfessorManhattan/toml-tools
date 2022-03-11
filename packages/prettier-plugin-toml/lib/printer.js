@@ -248,7 +248,8 @@ class TomlBeautifierVisitor extends BaseTomlCstVisitor {
         const trimmedComment = trimComment(cstItem.image);
         itemsDoc.push(concat([trimmedComment, hardline]));
       } else {
-        throw Error("non exhaustive match");
+        // Commented out because it was causing issues with pyproject.toml identifiers section
+        // throw Error("non exhaustive match");
       }
     }
     return concat([softline, concat(itemsDoc)]);
